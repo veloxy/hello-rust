@@ -1,6 +1,6 @@
 pub mod hello;
 
-use axum::{Router, routing::get};
+use axum::{routing::get, Router};
 
 pub fn create_routes() -> Router {
     Router::new()
