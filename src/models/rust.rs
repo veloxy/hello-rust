@@ -14,7 +14,7 @@ pub struct RustPostRequest {
 
 #[derive(Serialize)]
 pub struct RustPostResponse {
-    pub hello: String,
+    pub id: i32,
 }
 
 #[derive(Serialize)]
